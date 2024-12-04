@@ -11,7 +11,7 @@ jobs:
       uses: action/setup-node@v3
       with:
         node-version: '16'
-    -name: Install Dependencies
+    - name: Install Dependencies
       run: npm ci
-    -name: Run Cypress Tests
+    - name: Run Cypress Tests
       uses: cypress-io/github-action@v3
